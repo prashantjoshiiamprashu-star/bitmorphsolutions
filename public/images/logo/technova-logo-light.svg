@@ -1,0 +1,31 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo background circle -->
+  <circle cx="25" cy="25" r="20" fill="#3B82F6" opacity="0.1"/>
+  
+  <!-- Tech icon - simplified circuit pattern -->
+  <g fill="#3B82F6">
+    <circle cx="15" cy="15" r="2"/>
+    <circle cx="35" cy="15" r="2"/>
+    <circle cx="15" cy="35" r="2"/>
+    <circle cx="35" cy="35" r="2"/>
+    <circle cx="25" cy="25" r="3"/>
+    
+    <!-- Connection lines -->
+    <rect x="17" y="24" width="6" height="2"/>
+    <rect x="27" y="24" width="6" height="2"/>
+    <rect x="24" y="17" width="2" height="6"/>
+    <rect x="24" y="27" width="2" height="6"/>
+    <rect x="17" y="16" width="6" height="1"/>
+    <rect x="27" y="16" width="6" height="1"/>
+    <rect x="17" y="33" width="6" height="1"/>
+    <rect x="27" y="33" width="6" height="1"/>
+  </g>
+  
+  <!-- Company text -->
+  <text x="60" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">
+    TechNova
+  </text>
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">
+    SOLUTIONS
+  </text>
+</svg>
