@@ -1,0 +1,37 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo background with morphing effect -->
+  <defs>
+    <linearGradient id="gradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Morphing shapes representing transformation -->
+  <g>
+    <!-- Left shape (square) -->
+    <rect x="8" y="18" width="14" height="14" fill="#6366F1" opacity="0.8" rx="2"/>
+    <!-- Transformation lines -->
+    <rect x="24" y="24" width="12" height="2" fill="#6366F1" opacity="0.6"/>
+    <rect x="26" y="21" width="8" height="1" fill="#6366F1" opacity="0.4"/>
+    <rect x="26" y="27" width="8" height="1" fill="#6366F1" opacity="0.4"/>
+    <!-- Right shape (hexagon) -->
+    <polygon points="38,25 42,20 50,20 54,25 50,30 42,30" fill="#8B5CF6" opacity="0.8"/>
+  </g>
+  
+  <!-- Binary code effect -->
+  <g font-family="monospace" font-size="4" fill="#6366F1" opacity="0.3">
+    <text x="10" y="12">10110</text>
+    <text x="40" y="12">01001</text>
+    <text x="10" y="42">11010</text>
+    <text x="40" y="42">10101</text>
+  </g>
+  
+  <!-- Company text -->
+  <text x="70" y="22" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2937">
+    Bitmorph
+  </text>
+  <text x="70" y="36" font-family="Arial, sans-serif" font-size="11" fill="#6B7280" letter-spacing="2px">
+    SOLUTIONS
+  </text>
+</svg>
