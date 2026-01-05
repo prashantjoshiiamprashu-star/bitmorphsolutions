@@ -39,14 +39,14 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/bitmorph-logo-dark.svg"
+              src="/images/logo/b-dark.jpg"
               alt="Bitmorph Solutions"
               width={160}
               height={40}
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/bitmorph-logo-light.svg"
+              src="/images/logo/b-light.jpg"
               alt="Bitmorph Solutions"
               width={160}
               height={40}
