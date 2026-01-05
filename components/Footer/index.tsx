@@ -30,17 +30,17 @@ const Footer = () => {
               >
                 <a href="/" className="relative">
                   <Image
-                    width={160}
-                    height={50}
-                    src="/images/logo/bitmorph-logo-light.svg"
-                    alt="Bitmorph Solutions"
+                     src="/images/logo/b-light.jpg"
+              alt="Bitmorph Solutions"
+              width={50}
+              height={50}
                     className="dark:hidden"
                   />
                   <Image
-                    width={160}
-                    height={50}
-                    src="/images/logo/bitmorph-logo-dark.svg"
-                    alt="Bitmorph Solutions"
+                    src="/images/logo/b-dark.jpg"
+              alt="Bitmorph Solutions"
+                width={50}
+              height={50}
                     className="hidden dark:block"
                   />
                 </a>
