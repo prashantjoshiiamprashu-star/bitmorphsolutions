@@ -41,15 +41,15 @@ const Header = () => {
             <Image
               src="/images/logo/b-dark.jpg"
               alt="Bitmorph Solutions"
-              width={160}
-              height={40}
+                width={50}
+              height={50}
               className="hidden w-full dark:block"
             />
             <Image
               src="/images/logo/b-light.jpg"
               alt="Bitmorph Solutions"
-              width={160}
-              height={40}
+              width={50}
+              height={50}
               className="w-full dark:hidden"
             />
           </a>
